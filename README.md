@@ -1,5 +1,5 @@
 # USBMaker
-Create bootable USB installers from Linux disk images on macOS. This script does NOT work with Windows disk images, but I am working on a possible solution. It will be hacky, though, as macOS does not natively support NTFS.
+Create bootable USB installers from Linux disk images on macOS. This script does NOT work with Windows disk images, but I am working on a possible solution. It's going to be hacky though since macOS does not natively support NTFS. I haven't tested this with a macOS installer image yet, but I think it should work fine.
 
 Your specified target drive will be erased and formatted to FAT32 after the script asks you to confirm your selected target drive. This script is mostly untested, and I am not responsible for any potential data loss caused by this script.
 
