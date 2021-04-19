@@ -1,6 +1,10 @@
 import os, sys
 import psutil
 
+# Command to list physical external disks and return only the identifiers and their sizes
+# diskutil list physical external | grep -oE "((\/(dev)\/(disk)[0-9])|(\*[0-9]+.[0-9]+ GB))"
+# Might be a better way to list the drives, I could format the list and the user picks 1-N, etc.
+
 # PROGRAM ENTER
 os.system('clear')
 print("[ USBMaker by Evan Parker (@evprkr) ]\n")
